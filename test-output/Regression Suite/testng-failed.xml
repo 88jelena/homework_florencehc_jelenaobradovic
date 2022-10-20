@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="tests.TestLoginPage">
+        <methods>
+          <include name="logOutUser"/>
+          <include name="loginWithoutCredentials"/>
+          <include name="startTest"/>
+          <include name="stopTest"/>
+          <include name="loginValidUser"/>
+          <include name="generateUserData"/>
+          <include name="loginVerifyForm"/>
+        </methods>
+      </class> <!-- tests.TestLoginPage -->
+      <class name="tests.TestAccountOptions">
+        <methods>
+          <include name="startTest"/>
+          <include name="stopTest"/>
+          <include name="generateUserData"/>
+          <include name="accountSetup"/>
+          <include name="verifySiteMapLinks"/>
+        </methods>
+      </class> <!-- tests.TestAccountOptions -->
+      <class name="tests.TestRegisterPage">
+        <methods>
+          <include name="registerUserNoData"/>
+          <include name="registerInvalidPassConfirm"/>
+          <include name="startTest"/>
+          <include name="stopTest"/>
+          <include name="registerNewUser"/>
+          <include name="generateUserData"/>
+          <include name="registerVerifyPhoneNotReqField"/>
+          <include name="registerExistingUser"/>
+          <include name="registerSetup"/>
+        </methods>
+      </class> <!-- tests.TestRegisterPage -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

@@ -1,0 +1,7 @@
+Treba postaviti automation framework od nule. Koristiti JAVA-u 1.8, Page Object Model, Selenium 3.14, TesNG 6+ i Maven za build.
+Pored ovoga, u istom postavljenom frameworku, treba naci website po svom izboru i automatizovati sledece stvari:
+- Registraciju (po mogucstvu bez email potvrde usera)
+- Login i logout
+- Jednu najvise koriscenu funkcionalnost tog sajta
+
+Ne koristiti Page Factory.
